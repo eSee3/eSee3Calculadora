@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+    <div id="titulo1">CALCULADORA PABLO NEVADO</div>
+  <div id="contenedor">
+      
+
+      <div id="pantalla">0
+    
+      </div>
+      <div id="botonera">
+          <div id="fila1">
+              <button onclick="escribir(7)">7</button>
+              <button onclick="escribir(8)">8</button>
+              <button onclick=escribir(9)>9</button>
+              <button id="signo" onclick="operar('-')">-</button>
+              <button id="signo" onclick="operar('+')">+</button>
+          </div>
+
+          <div id="fila2">
+              <button onclick="escribir(4)">4</button>
+              <button onclick="escribir(5)">5</button>
+              <button onclick="escribir(6)">6</button>
+              <button id="signo" onclick="operar('x')">*</button>
+              <button id="signo" onclick="operar('/')">/</button>
+          </div >
+
+          <div id="fila3">
+              <button onclick="escribir(1)">1</button>
+              <button onclick="escribir(2)">2</button>
+              <button onclick="escribir(3)">3</button>
+              <input id="C" type="button" class="largo" value="C" onclick="borradoTotal()">
+
+          </div>
+          <div id="fila4">
+
+              <button onclick="escribir(0)">0</button>
+              <button onclick="escribir('.')">.</button>
+              <button id="signo" onclick="resultado()">=</button>
+              <button id="ON" onclick="apagar()">OFF</button>
+              <button id="ON" onclick="location.reload()">ON</button>
+              
+          </div>
+                   
+      </div>
+              
+  </div>
+  
+  
+</body>
+</html>

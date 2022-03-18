@@ -1,0 +1,133 @@
+
+/*ASPECTOS GENERALES*/
+#contenedor{
+    margin: 0 auto;
+    width: 350px;
+    height: 325px;
+    text-align: center;
+}
+
+body{
+	background-image: linear-gradient(to left, rgb(111, 172, 111), rgb(0, 216, 205));
+  
+}
+
+#botonera div{
+    margin-bottom:10px;
+}
+
+#titulo1{
+    font-family: 'Russo One', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*BOTONES*/
+button{
+    width: 60px;
+    height: 55px;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, .4);
+    border: none;
+	color: white;
+	border-radius: 3px;
+	font-family: 'Russo One', sans-serif;
+}
+
+/*HOVER DE LOS BOTONES NUMERICOS*/
+button:hover{
+
+    width: 60px;
+    height: 55px;
+    background-color: #a5a5a5;
+    text-align: center;
+	border: transparent;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 3px;
+}
+
+/*BOTON C*/
+input.largo { 
+	
+	background-color: rgb(18 32 130);
+    border: none;
+    color: white;
+    WIDTH: 125px;
+    font-size: 20px;
+	height: 55px;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 3px;
+    
+}  
+
+/*HOVER DEL BOTON C*/
+input.largo:hover{
+	background-color: #a5a5a5;
+    border: none;
+    color: white;
+    WIDTH: 125px;
+    font-size: 20px;
+	height: 55px;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 3px;
+}
+
+/*BOTON DE ENCENDIDO*/
+button#ON{
+	background-color: rgba(169 33 33);
+    border: none;
+    color: white;
+    font-size: 20px;
+	height: 55px;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 3px;
+}
+
+/*HOVER DEL BOTON DE ENCENDIDO*/
+button#ON:hover{
+	background-color: #a5a5a5;
+    border: none;
+    color: white;
+    font-size: 20px;
+	height: 55px;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 3px;
+}
+
+/*SIMBOLOS DE + - Y DEMAS */
+button#signo{
+	background-color:rgb(48 49 49);
+    border: none;
+    color: white;
+	font-size: 20px;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 3px;
+}
+
+/*HOVER SIMBOLOS DE + - Y DEMAS */
+button#signo:hover{
+	width: 60px;
+    height: 55px;
+    background-color: #a5a5a5;
+    text-align: center;
+	border: transparent;
+	font-size: 20px;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 3px;
+}
+
+/*DONDE IMPRIMIMOS EL RESULTADO*/
+#pantalla{
+    text-align: center;
+    width: 317px;
+    height: 60px;
+    margin: 15px auto 11px auto;
+    font-size: 50px;
+    background-color: rgb(0 0 0 / 55%);
+	color: white;
+	font-family: 'Russo One', sans-serif;
+	border-radius: 3px;
+}
+
